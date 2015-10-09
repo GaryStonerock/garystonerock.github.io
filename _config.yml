@@ -1,0 +1,41 @@
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+
+# Permalinks
+permalink:        /blog/:year/:month/:day/:title
+relative_permalinks: true
+
+# Setup
+title:            Gary Stonerock II
+tagline:          'Bringing context and contrasting perspectives to software design, development, and architecture'
+description:      'Bringing context and contrasting perspectives to software design, development, and architecture'
+url:              http://wwww.GaryStonerock.com
+baseurl:          /
+
+author:
+  name:           'Gary Stonerock II'
+
+paginate:         3
+
+# Custom vars
+version:          2.1.0
+
+github:
+  repo:           https://github.com/GaryStonerock/GaryStonerock.github.io/
+
+# Social
+twitter_user: GaryStonerockII
+email: GaryStonerockII@gmail.com
+github_user: GaryStonerock
+subscribe_rss: http://www.GaryStonerock.com/blog/atom.xml
+linkedin_user: gary-stonerock-ii/45/889/ba0
+
+# Comments
+disqus_shortname: garystonerockii
+
+# Google Analytics
+google_analytics_tracking_id: UA-68608059-1
+
+gems:
+  - jekyll-sitemap
