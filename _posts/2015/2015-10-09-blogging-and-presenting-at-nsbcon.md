@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Blogging and Presenting at NSBCon 2015
+categories: Announcements
+tags: [Blogging, Presenting, Software Architecture, Software Development]
 ---
 
 What could be better as my *first* post than a post about the *first* conference I'll be speaking at?  A *first* post where the intent of both the blog and *first* presentation are one in the same!
