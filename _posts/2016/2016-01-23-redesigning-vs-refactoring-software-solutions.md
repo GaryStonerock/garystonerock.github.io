@@ -5,7 +5,7 @@ categories: [Refactoring, Analysis]
 tags: [Redesigning, Refactoring, Analysis, Maintainability]
 ---
 
-##Introduction
+## Introduction
 Many of the terms we frequently use to communicate software development ideas, concepts, and techniques, tend to be overloaded and generalized.  This often results in the misuse of the term which decreases the clarity of the problem, solution, or task at hand.  Recognizing this give us an opportunity to restate what we actually mean when we use the term and what we would actually like to achieve.  
 
 More often than not, when we do this, we realize we meant something else entirely.  Implicit meaning and their benefits are further realized when focusing on the contextual usage of the term.  Communication clarity increases with specific intent yielding better practices or solutions.
