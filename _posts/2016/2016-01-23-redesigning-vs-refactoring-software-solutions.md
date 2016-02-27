@@ -6,13 +6,14 @@ tags: [Redesigning, Refactoring, Analysis, Maintainability]
 ---
 
 ## Introduction
+
 Many of the terms we frequently use to communicate software development ideas, concepts, and techniques, tend to be overloaded and generalized.  This often results in the misuse of the term which decreases the clarity of the problem, solution, or task at hand.  Recognizing this give us an opportunity to restate what we actually mean when we use the term and what we would actually like to achieve.  
 
 More often than not, when we do this, we realize we meant something else entirely.  Implicit meaning and their benefits are further realized when focusing on the contextual usage of the term.  Communication clarity increases with specific intent yielding better practices or solutions.
 
 While the list of terms that fit this criteria are endless, I'd like to focus on the term *refactoring*,  what it means, how it is overloaded, and then relabel one of its usages with a different term to encapsulate a different set of activities that result in similar benefits to that of *refactoring*. 
 
-##Overloading the term 'Refactoring'
+## Overloading the term 'Refactoring'
 
 A non-exhaustive list of ways I've heard the term *refactoring* used in practice:
 
@@ -27,10 +28,12 @@ A non-exhaustive list of ways I've heard the term *refactoring* used in practice
 
 What is interesting is that in all cases, the term *refactoring* is used to refer to a beneficial change to the software.  All of them have the motivation to increase some qualities of the software to provide some value.  If that is the common denominator, one could argue that you could call anything and everything in software development *refactoring* as long as it delivers value.  That is a pretty overloaded term!
 
-##Defining 'Refactoring'
+## Defining 'Refactoring'
+
 *Note: This is a brief summary of Refactoring, only highlighting a few key properties to provide a basis for the rest of the post.  It is not by all means an extensive list of where, when, and why to perform Refactorings.*
 
 While there are many formal definitions with slightly different wording, I'd like to use Martin Fowler's definition from his [Refactoring Book](http://www.amazon.com/Refactoring-Improving-Design-Existing-Code/dp/0201485672/ "Refactoring Book"):
+
 >A change made to the internal structure of software to make it **easier to understand** and **cheaper to modify** *without changing its observable behavior*.
 
 If we adhere to this definition strictly, any change without the intent to increase the maintainability of the software or any change that alters the behavior of the software is **not** a *refactor*.  Why should we care about making this distinction?  As I was stating above, we'll be able to maximize its benefits by narrowing the focus of our efforts.
@@ -52,7 +55,7 @@ The practice of *refactoring* makes the software more maintainable by improving 
 
 While there are many different reasons you might decide to do a *refactoring*, I'd like to focus on the case where you're adding new functionality and enhancing the software in some way.  Kent Beck has a very nice metaphor for this case and the process one should follow.  There's 2 hats; one of which is the *refactoring* hat while the other is the *adding function* hat.  They are mutually exclusive meaning you can only ever wear one hat at a time.  The trigger to switch to the *refactoring* hat is if you try to add something and the existing structure makes the process awkward in some way.  At that point, one should stop and modify the existing structure to make the new code easier to add.
 
-##Shifting focus
+## Shifting focus
 
 If we can now agree what *refactoring* is and isn't, how can we define changes to the software that also are about maintainability (among other things) but **do** change the behavior of the software?  Is this something we would even care about?  When and why would we be doing this?  I would argue this case is just as important, if not more important, than what *refactoring* accomplishes.
 
@@ -64,6 +67,7 @@ It's ironic that as a group, we (in the software development community) are very
 While I'm not going to dig into that first assumption here, I *think* both of those assumptions *might* be triggered by the same thing - it's the easiest thing to do.  It requires time to understand a solution and the context in which the critical decisions were made.  If *you* never heard anyone complain about it, it **must** be good..right?!
 
 Coincidentally, I came across a [post](http://www.sandimetz.com/blog/2016/1/20/the-wrong-abstraction "The Wrong Abstraction") by Sandi Metz a few days on a different topic in which she made the same assertion:
+
 >Existing code exerts a powerful influence. Its very presence argues that it is both correct and necessary.
 
 We tend to assume what we wrote met the business needs, it's what they wanted, and that will always be the case.  More often than not, if we just asked them, we might hear that they don't like the way it is, never did, or how it's not applicable anymore.
@@ -80,11 +84,12 @@ One of the main reasons a developer would be reviewing existing code would be th
 
 In all these cases, there are multiple behaviors of the system that we *do want to change* that will *bring value* to the business and if we don't change, will hurt the *maintainability* of the software.  I thought a while about a term or set of terms I could use to communicate a practice that would describe this case.  What I came up with was the *3 R's*.
 
-##Revisit, Restate, Redesign
+## Revisit, Restate, Redesign
 
 What I am proposing is, when enhancing software, *revisit* the related problems,  *restate* those problems with the addition of the details of the new problem, then *redesign* the solution or set of solutions to better align with the current state of the business.  This could be the **third hat**!
 
 I came across the perfect definition of *revisit* from [Google](https://www.google.com/?gws_rd=ssl#q=Revisiting "Revisiting Definition") to convey my idea:
+
 >consider (a situation or problem) again or from a different perspective
 
 It's so important for us to do this.  We're the ones that are seeing all the details of the current solutions and there's a reason people tend forget all those details.  Businesses and their rules are complex!  It's our responsibility to bring visibility to those details, ask questions, and start the conversations.  Question everything!  The existing design!  The existing requirements!  The existing problems!  Heck...even the new problem!  
@@ -93,7 +98,7 @@ It's so important for us to do this.  We're the ones that are seeing all the det
 
 If the new problem and existing solutions have a relationship, this process will yield a more holistic solution.  Most importantly, it delivers value in two ways: by increasing its maintainability and by delivering a refined solution to the business optimizing for what they care about!  
 
-##Summary
+## Summary
 
 There were 2 important ideas I was hoping to convey:
 
