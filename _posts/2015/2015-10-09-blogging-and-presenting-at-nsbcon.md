@@ -7,7 +7,7 @@ tags: [Blogging, Presenting, Software Architecture, Software Development]
 
 What could be better as my *first* post than a post about the *first* conference I'll be speaking at?  A *first* post where the intent of both the blog and *first* presentation are one in the same!
 
-I'll be presenting at [NSBCon 2015](http://particular.net/nsbcon2015) which is an "All About NServiceBus" conference.  It's a great conference for anyone interested in topics such as distributed systems, messaging, and microservices.  While the focus is on NServiceBus and the Particular Platform, I think anyone interested in similar topics could learn a lot by attending as the underlying concepts are translatable between technologies and platforms.
+I'll be presenting at NSBCon 2015 which is an "All About NServiceBus" conference.  It's a great conference for anyone interested in topics such as distributed systems, messaging, and microservices.  While the focus is on NServiceBus and the Particular Platform, I think anyone interested in similar topics could learn a lot by attending as the underlying concepts are translatable between technologies and platforms.
 
 The full title of my talk is: 
 
@@ -27,3 +27,5 @@ The resulting software typically ends up being overly complex with a lot of acci
 While I will blog about technologies and their low-level details from time to time, the area I'm going to focus in is about my experience encountering some of the issues I've described above, how I've handled them, and what worked or didn't work.
 
 Enjoy!
+
+**Update**: *My presentation has been posted [here](http://particular.net/blog/nsbcon-2015-decomposing-the-domain "Decomposing the Domain").*
