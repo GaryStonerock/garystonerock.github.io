@@ -9,4 +9,4 @@ Gary is a passionate software architect who strives to make business analysis th
 
 Gary has work in industries such as pharmaceuticals, e-commerce, banking, and industrial automation.  He is currently the Lead Systems Architect at Almac Clinical Technologies where he is responsible for their clinical trial and supply management software solutions.
 
-When Gary is not developing software, he can be found watching a movie with his wife Dana or playing with his daughter Claire and dog Sammy.
+When Gary is not developing software, he can be found reading a book, watching a movie, or playing outside with his wife Dana, daughter Claire, and dog Sammy.
