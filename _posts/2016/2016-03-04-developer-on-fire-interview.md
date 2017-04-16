@@ -1,5 +1,6 @@
 ---
 layout: post
+redirect_from: "/blog/2016/03/04/developer-on-fire-interview/"
 title: Developer on Fire Interview
 categories: Announcements
 tags: [Interview, Podcast, Software Development, Software Architecture]

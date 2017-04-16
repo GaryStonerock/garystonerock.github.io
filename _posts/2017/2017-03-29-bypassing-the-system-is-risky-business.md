@@ -1,5 +1,6 @@
 ---
 layout: post
+redirect_from: "/blog/2017/03/29/bypassing-the-system-is-risky-business/"
 title: Bypassing the System is Risky Business
 categories: [Analysis, Architecture, Data]
 tags: [Analysis, Risk, Migration, Scripts, Bugs, Data Corruption, Architecture, Systems Thinking, Data, Behavior Centric Thinking]

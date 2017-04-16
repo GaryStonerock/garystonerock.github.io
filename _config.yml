@@ -1,5 +1,5 @@
 # Permalinks
-permalink:        /blog/:year/:month/:day/:title/
+permalink:        /blog/:title/
 
 # Setup
 title:            Gary Stonerock II
@@ -34,3 +34,4 @@ google_analytics_tracking_id: UA-68608059-1
 
 gems:
   - jekyll-sitemap
+  - jekyll-redirect-from

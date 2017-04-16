@@ -1,5 +1,6 @@
 ---
 layout: post
+redirect_from: "/blog/2016/01/23/redesigning-vs-refactoring-software-solutions/"
 title: Redesigning vs. Refactoring Software Solutions
 categories: [Refactoring, Analysis]
 tags: [Redesigning, Refactoring, Analysis, Maintainability]

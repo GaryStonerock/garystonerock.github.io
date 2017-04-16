@@ -1,5 +1,6 @@
 ---
 layout: post
+redirect_from: "/blog/2015/10/09/blogging-and-presenting-at-nsbcon/"
 title: Blogging and Presenting at NSBCon 2015
 categories: Announcements
 tags: [Blogging, Presenting, Software Architecture, Software Development]
