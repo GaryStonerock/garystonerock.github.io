@@ -2,12 +2,12 @@
 <html lang="en-us">
   <head>
     <title>Redirecting&hellip;</title>
-	<link rel="canonical" href="{{ page.redirect.to }}">
-	<meta http-equiv="refresh" content="0; url={{ page.redirect.to }}">
+	<link rel="canonical" href="{{ page.redirect.to | replace:'.com//','.com/' }}">
+	<meta http-equiv="refresh" content="0; url={{ page.redirect.to | replace:'.com//','.com/' }}">
   </head>
   <body>
 	<h3>Redirecting…</h3>
-	<a href="{{ page.redirect.to }}">Click here if you are not redirected.</a>
-	<script>location="{{ page.redirect.to }}"</script>
+	<a href="{{ page.redirect.to | replace:'.com//','.com/' }}">Click here if you are not redirected.</a>
+	<script>location="{{ page.redirect.to | replace:'.com//','.com/' }}"</script>
   </body>
 </html>
