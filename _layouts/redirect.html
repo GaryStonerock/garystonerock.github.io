@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <title>Redirecting&hellip;</title>
+	<link rel="canonical" href="{{ page.redirect.to }}">
+	<meta http-equiv="refresh" content="0; url={{ page.redirect.to }}">
+  </head>
+  <body>
+	<h3>Redirecting…</h3>
+	<a href="{{ page.redirect.to }}">Click here if you are not redirected.</a>
+	<script>location="{{ page.redirect.to }}"</script>
+  </body>
+</html>
