@@ -5,7 +5,7 @@ permalink:        /blog/:title/
 title:            Gary Stonerock II
 tagline:          'Bringing context and contrasting perspectives to software design, development, and architecture'
 description:      'Bringing context and contrasting perspectives to software design, development, and architecture'
-url:              http://wwww.GaryStonerock.com
+url:              http://www.GaryStonerock.com
 baseurl:          /
 
 author:
