@@ -5,8 +5,6 @@ categories: [Analysis, Software Architecture]
 tags: [Analysis, Assumptions, Identifiers, Modeling, Data Ownership]
 ---
 
-# Model Domain Identity but Depend on System Identity
-
 ## Introduction
 
 There have been many debates over the years, dating all the way back to when the idea for relational databases was conceived, on which type of identifier or key is best to use.  A natural key or surrogate key.  But as in most best practices or *which one is better* debates, the wrong question is being asked.  Asking an either or type question, is searching for a silver bullet answer.
